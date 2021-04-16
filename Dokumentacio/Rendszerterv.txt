@@ -1,0 +1,17 @@
+Rendszer szerepkörök:
+
+Rendszerhasználati esetek:
+
+Fizikai környezet:
+
+Adatbázis terv: 
+
+Implementációs terv:
+
+Tesztterv:
+
+Karbantartási terv:
+
+Fogalomszótár:
+
+
