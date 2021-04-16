@@ -1,0 +1,22 @@
+Készítők: 
+
+Bíró Daniella, 
+Molnár Adrienn, 
+Nyuzó Bíborka, 
+Zörgő Ádám Gábor
+
+Weboldal rövid leírása:
+
+Vágyálom Rendszer: 
+
+Funkcionális követelmények:
+
+Nem funkcionális követelmények:
+
+Rendszerre vonatkozó törvények, szabványok:
+
+Jelenlegi üzleti folyamatok modellje:
+
+Igényelt üzleti folyamatok:
+
+Követelménylista:
