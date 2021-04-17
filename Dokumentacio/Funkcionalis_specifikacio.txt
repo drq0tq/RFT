@@ -1,5 +1,10 @@
 Követelményelemzés:
 
+Célunk egy olyan weboldal elkészítése, amely lehetővé teszi a felhasználók számára egy talált állat bejelentését, ezzel is segítve a kutyákat, 
+hogy minél kevesebben legyenek az utcán élelem, és szerető gazdi nélkül. Szeretnénk, hogy minden menhelyen lévő kutya szerető otthonra leljen, 
+ezért is terveztünk megvalósítani egy könnyen kezelhető weboldalt, ahol a kutyát kereső felhasználók egyszerűen és gyorsan meg tudják találni a számukra legideálisabb kutyát. 
+Ennek érdekében, szűrési lehetőséget biztosítunk az örökbefogadó állatok között.
+
 Követelménylista:
 
 Használati esetek:
