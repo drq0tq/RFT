@@ -7,6 +7,50 @@ Ennek érdekében, szűrési lehetőséget biztosítunk az örökbefogadó álla
 
 Követelménylista:
 
+k1: Jogosultsági szintek
+
+-Admin: örökbefogadható állatok listájának szerkeszthetősége, gondozók listájának szerkeszthetősége
+-Felhasználó: talált állat bejelentésének lehetősége, örökbefogadható állatok megtekintése,
+ szűrési lehetőség, örökbefogadási szándék jelzése
+
+k2: Admin bejelentkezés
+
+-Az adminok ezen a felületen tudnak bejelentkezni,a weboldal karbantartásához.
+
+k3: Örökbefogadható állatok
+
+-Ezen a felületen láthatják és szűrhetik a felhasználók az aktuálisan örökbefogadható állatok listáját.
+-A felhasználóknak lehetősége van egy űrlap segítségével jelezni, ha örökbe szeretnék fogadni az egyik állatot.
+-Admin jogosultsággal szerkeszthető.
+
+k4: Talált állat bejelentése
+
+-Ezen a felületen a felhasználóknak lehetőségük van egy kóbor állat bejelentésére.
+-Kötelező feltüntetni a bejelenteni kívánt állat tartózkodási helyét.
+
+k5:Kapcsolat
+
+-Ezen a felületen láthatják a felhasználók a menhely elérhetőségeit.
+
+
+k6: Támogatás
+
+-Ezen a felületen tudnak tájékozódni a felhasználók a támogatási lehetőségekről.
+
+k7: Kezdőlap
+
+-Ezen a felületen találják a felhasználók a menhely általános információit.
+
+k8: Gondozók
+
+-Ezen a felületen látható a menhelyen dolgozó gondozók listája (adatbázisból).
+-Admin jogosultsággal szerkesztési lehetőség.
+
+k9: Már gazdát talált állatok
+
+-Ezen a felületen, akik már fogadtak örökbe nálunk kutyát, tudnak képet feltölteni és küldeni az adminoknak.
+
+
 Használati esetek:
 
 Funkció-követelmény megfeleltetés:
