@@ -1,3 +1,5 @@
+A rendszer célja:
+
 Rendszer szerepkörök:
 
 Rendszerhasználati esetek:
@@ -45,18 +47,22 @@ A Weboldalunk főként PHP, CSS, és HTML nyelven fog készülni.
 A weblapon megjelenő adatok egy részét MySQL adatbázisból fogjuk megjeleníteni, SQL utasítások segítségével.
 
 Tesztterv:
-Alfa teszt:
+-Alfa teszt:
 
 A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. 
 A tesztet a fejlesztők végzik. Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
 Tesztelendő böngészők: Opera, Firefox, Google Chrome
 
-Béta teszt:
+-Béta teszt:
 
 Ezt a tesztet nem a fejlesztők végzik.
 A teszt időtartama egy hét. A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén.
 Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb.
 Tesztelendő böngészők: Opera, Firefox, Google Chrome
+
+Telepítési terv:
+-Webes alkalmazás: A webes felület használatához csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera), külön szoftver nem kell hozzá. 
+A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
 
 Karbantartási terv:
 
@@ -65,9 +71,9 @@ a belső igények változása miatti módosításokat, valamint a környezeti fe
 
 Fogalomszótár:
 
-HTML: Alapértelmezett leíró nyelv, weboldalak készítésére szokás használni.
-CSS: HTML oldalak stílusnak leírására használatos nyelv.
-PHP: Szerver oldali szkriptnyelv dinamikus weblapok készítésére.
-SQL: Relációsadatbázis-kezelők lekérdezési nyelve.
+-HTML: Alapértelmezett leíró nyelv, weboldalak készítésére szokás használni.
+-CSS: HTML oldalak stílusnak leírására használatos nyelv.
+-PHP: Szerver oldali szkriptnyelv dinamikus weblapok készítésére.
+-SQL: Relációsadatbázis-kezelők lekérdezési nyelve.
 
 
