@@ -46,6 +46,13 @@ Alkalmazás futtatható legyen az összes aktuálisan elérhető böngészők ak
 
 Rendszerre vonatkozó törvények, szabványok:
 
+AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról.
+
+96/9/EK irányelv (1996. március 11.) az adatbázisok jogi védelméről.
+
+A Polgári Törvénykönyv (Ptk.) értelmében állatot örökbefogadási szerződéssel csak az a nagykorú, tehát 18. életévét betöltött személy fogadhat örökbe, aki cselekvőképes.
+
+
 Jelenlegi üzleti folyamatok modellje:
 
 Igényelt üzleti folyamatok:
