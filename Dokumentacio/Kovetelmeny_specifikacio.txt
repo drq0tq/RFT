@@ -7,6 +7,9 @@ Zörgő Ádám Gábor
 
 Weboldal rövid leírása:
 
+Az általunk készített honlap egy menhely weboldala, amelyen az aktuálisan örökbefogadható állatokat és azok adatait tekinthetik meg a felhasználók. A könnyebb keresés érdekében szűrési lehetőséget is biztosítunk az oldalon. Illetve talált állatokat is be tudnak jelenteni.. A weboldalon az admin jogosultsággal rendelkezőknek lehetőségük van örökbefogadható állatok hozzáadására, törlésére illetve azok adatainak módosítására is. A weboldalon továbbá megjelenítjük adatbázisból a menhelyen dolgozó gondozók listáját is. Admin jogosultsággal rendelkezők az itt megjelenő adatokat is tudják módosítani, illetve tudnak gondozót törölni az adatbázisból, és újabb gondozót hozzáadni is.
+
+
 Vágyálom Rendszer: 
 
 Funkcionális követelmények:
