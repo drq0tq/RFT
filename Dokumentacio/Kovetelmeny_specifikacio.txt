@@ -21,6 +21,10 @@ nincs szűrési lehetőség, hogy könnyebben megtalálják az emberek a nekik v
 Oldalunkon fontosnak tartjuk ezeket a hiányosságokat pótolni, az admin felületen könnyen és gyorsan karbantartható az oldal, így a felhasználók mindig friss információt kapnak, 
 illetve szűrési funkciót is szeretnénk létrehozni.
 
+Annak ellenére, hogy 2013 óta kötelezően el kell látnunk a kutyánkat chippel, még mindig nagyon sok kóbor, gazda és chip nélküli kutyát találni. 
+Ha valaki kóbor kutyát talál, arra jelenleg nincs egy könnyen kezelhető, az állat bejelentésére való felület. 
+Sokszor a közösségi médiát használják az emberek ilyen célra, de ott a sok más bejegyzés között könnyen elkeveredhet a bejelentés és rosszabb esetben nem jut el olyan emberekhez/szervezethez, akik befogadnák az állatot. 
+Ennek a problémának a megoldására találtuk ki, hogy weboldalunkon lehetőség legyen talált állat bejelentésére.
 
 Vágyálom Rendszer: 
 
@@ -31,9 +35,8 @@ Nem funkcionális követelmények:
 Design:
 Felhasználóbarát, jól átlátható szerkezeti felépítés.
 
- Platform:
+Platform:
 Alkalmazás futtatható legyen az összes aktuálisan elérhető böngészők aktuális verziójával.
-
 
 Rendszerre vonatkozó törvények, szabványok:
 
