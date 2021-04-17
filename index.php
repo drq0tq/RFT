@@ -41,7 +41,7 @@ background-image: url(p.jpg);
 	cursor:default;
 	text-align:right;
     }
-    input[type="button"]{
+ #bejel{
 	background:#ffffcc;
 	color:#ff9933;
 	border: 1px solid #ff9933;
@@ -53,7 +53,7 @@ background-image: url(p.jpg);
 	
 	
 }
-input[type="button"]:hover{
+#bejel:hover{
 	background:#ff9933;
 	color:#fff;
 	border: 1px solid #fff;
@@ -76,7 +76,7 @@ body #bejelentkezes td{
 </head>
 <body >
     <table id="bejelentkezes" align="right" >
-	  <tr><td><input type="button" value="Bejelentkezés adminként" onclick="location='bejelentkezes.html';"></td></tr>
+	  <tr><td><input id="bejel" type="button" value="Bejelentkezés adminként" onclick="location='bejelentkezes.php';"></td></tr>
 	  </table>
 <div id=Fejlec > </div>
 	
