@@ -26,7 +26,13 @@ Ha valaki kóbor kutyát talál, arra jelenleg nincs egy könnyen kezelhető, az
 Sokszor a közösségi médiát használják az emberek ilyen célra, de ott a sok más bejegyzés között könnyen elkeveredhet a bejelentés és rosszabb esetben nem jut el olyan emberekhez/szervezethez, akik befogadnák az állatot. 
 Ennek a problémának a megoldására találtuk ki, hogy weboldalunkon lehetőség legyen talált állat bejelentésére.
 
-Vágyálom Rendszer: 
+Vágyálom Rendszer:
+
+Egy letisztult, könnyen kezelhető weboldal, ahol egy szűrő segítségével mindenki könnyen megtalálja a számára ideális kutyát és egy űrlap segítségével jelezheti is örökbefogadási szándékát.
+Illetve, ha gazda nélküli kutyát talál valaki, weboldalunkon azt is be tudja jelenteni.
+Bejelentkezés után admin felület használata . Csak admin jogosultsággal lehet az oldalon megjelenő adatokat módosítani.
+Visszajelzési felület, ahol a már örökbefogadott kisbabákról friss infókat osztanak meg, pl hogy érzik magukat az új gazdinál
+Felület, amelyen a menhely támogatási lehetőségeit listázzuk
 
 Funkcionális követelmények:
 
