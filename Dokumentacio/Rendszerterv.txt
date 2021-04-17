@@ -65,4 +65,9 @@ a belső igények változása miatti módosításokat, valamint a környezeti fe
 
 Fogalomszótár:
 
+HTML: Alapértelmezett leíró nyelv, weboldalak készítésére szokás használni.
+CSS: HTML oldalak stílusnak leírására használatos nyelv.
+PHP: Szerver oldali szkriptnyelv dinamikus weblapok készítésére.
+SQL: Relációsadatbázis-kezelők lekérdezési nyelve.
+
 
