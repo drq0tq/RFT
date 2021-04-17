@@ -6,7 +6,6 @@ Fizikai környezet:
 
 Adatbázis terv: 
 
-
 Gondozók tábla
 id,
 nev, 
@@ -23,7 +22,7 @@ fajta,
 meret,
 mozgasigeny,
 ivartalanitott, 
-gyerekbarat 
+gyerekbarat
 
 Talált állatok tábla
 id,
