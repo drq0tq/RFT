@@ -28,6 +28,13 @@ Funkcionális követelmények:
 
 Nem funkcionális követelmények:
 
+Design:
+Felhasználóbarát, jól átlátható szerkezeti felépítés.
+
+ Platform:
+Alkalmazás futtatható legyen az összes aktuálisan elérhető böngészők aktuális verziójával.
+
+
 Rendszerre vonatkozó törvények, szabványok:
 
 Jelenlegi üzleti folyamatok modellje:
