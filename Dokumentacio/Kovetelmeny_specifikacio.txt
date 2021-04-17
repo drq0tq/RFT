@@ -13,6 +13,14 @@ A weboldalon az admin jogosultsággal rendelkezőknek lehetőségük van örökb
 A weboldalon továbbá megjelenítjük adatbázisból a menhelyen dolgozó gondozók listáját is. 
 Admin jogosultsággal rendelkezők az itt megjelenő adatokat is tudják módosítani, illetve tudnak gondozót törölni az adatbázisból, és újabb gondozót hozzáadni is.
 
+Jelenlegi helyzet:
+
+A mai világban fontos, hogy egy állatmenhelynek is legyen weboldala, hogy ezáltal minél több emberhez jusson el az örökbefogadás lehetősége.
+Sok ilyen weboldalon viszont nincsenek az örökbefogadható állatokról képek, nem frissül elég gyakran az oldal, vagy, ha sok állat közül lehet választani,
+nincs szűrési lehetőség, hogy könnyebben megtalálják az emberek a nekik való kutyát.
+Oldalunkon fontosnak tartjuk ezeket a hiányosságokat pótolni, az admin felületen könnyen és gyorsan karbantartható az oldal, így a felhasználók mindig friss információt kapnak, 
+illetve szűrési funkciót is szeretnénk létrehozni.
+
 
 Vágyálom Rendszer: 
 
