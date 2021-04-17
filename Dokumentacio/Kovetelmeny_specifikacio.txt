@@ -35,7 +35,9 @@ Visszajelzési felület, ahol a már örökbefogadott állatokról képeket oszt
 Felület, amelyen a menhely támogatási lehetőségeit listázzuk
 
 Funkcionális követelmények:
-A weboldalon admin jogosultsággal az örökbefogadható állatok és a gondozók oldalon lehetőség lesz az adatok módosítására, törlésére illetve új adat hozzáadására. A felhasználók szűrő segítségével tudnak szűrni az örökbefogadható állatok között és tudják jelezni az adminok számára az örökbefogadási szándékot. A felhasználók számára talált állat bejelentésére is lesz lehetőség, egy űrlap kitöltésével, és akár fénykép feltöltésével tudják jelezni az adminok felé, ha egy kóbor állatot találnak.
+A weboldalon admin jogosultsággal az örökbefogadható állatok és a gondozók oldalon lehetőség lesz az adatok módosítására, törlésére illetve új adat hozzáadására. 
+A felhasználók szűrő segítségével tudnak szűrni az örökbefogadható állatok között és tudják jelezni az adminok számára az örökbefogadási szándékot. 
+A felhasználók számára talált állat bejelentésére is lesz lehetőség, egy űrlap kitöltésével, és akár fénykép feltöltésével tudják jelezni az adminok felé, ha egy kóbor állatot találnak.
 
 Nem funkcionális követelmények:
 
@@ -55,6 +57,8 @@ A Polgári Törvénykönyv (Ptk.) értelmében állatot örökbefogadási szerz�
 
 
 Jelenlegi üzleti folyamatok modellje:
+A meglévő menhely weboldalak nehezen kezelhetőek, nem minden esetben átláthatóak, nem lehet szűrni az örökbefogadható állatok között, illetve nincs lehetőség talált állat bejelentésére. 
+Ezekeket a hiányosságokat szeretnénk kijavítani az általunk készített weboldalon.
 
 Igényelt üzleti folyamatok:
 
