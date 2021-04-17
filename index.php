@@ -5,7 +5,74 @@ require_once 'connect.php';
 <!DOCTYPE html>
 <html>
 <head>
+<style>
 
+body {
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #ffffcc;
+    font-size: 20px;
+}
+ 
+.navbar {
+  overflow: hidden;
+  background-color: #ff9933; 
+    font-size: 20px;
+    }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover{
+  background-color: #ffcc66;
+}
+
+    
+    #Fejlec{
+	height: 157px;
+background-image: url(p.jpg);
+	cursor:default;
+	text-align:right;
+    }
+    input[type="button"]{
+	background:#ffffcc;
+	color:#ff9933;
+	border: 1px solid #ff9933;
+	padding: 10px 20px;
+	font-size: 24px;
+	cursor:pointer;
+	border-radius:10px;
+	
+	
+	
+}
+input[type="button"]:hover{
+	background:#ff9933;
+	color:#fff;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	font-size: 24px;
+	cursor:pointer;
+	border-radius:10px;
+	
+	
+	
+}
+    body #bejelentkezes{
+
+        margin-top: 10px;
+}
+body #bejelentkezes td{
+	padding:5px;
+}
+</style>
 </head>
 <body >
     <table id="bejelentkezes" align="right" >
