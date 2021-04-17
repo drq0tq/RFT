@@ -41,7 +41,20 @@ kutya azonositoja
 
 Implementációs terv:
 
+A Weboldalunk főként PHP, CSS, és HTML nyelven fog készülni.
+A weblapon megjelenő adatok egy részét MySQL adatbázisból fogjuk megjeleníteni, SQL utasítások segítségével.
+
 Tesztterv:
+Alfa teszt:
+
+A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik. Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
+Tesztelendő böngészők: Opera, Firefox, Google Chrome
+
+Béta teszt:
+
+Ezt a tesztet nem a fejlesztők végzik.
+A teszt időtartama egy hét. A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén.Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb.
+Tesztelendő böngészők: Opera, Firefox, Google Chrome
 
 Karbantartási terv:
 
