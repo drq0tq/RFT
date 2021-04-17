@@ -6,6 +6,40 @@ Fizikai környezet:
 
 Adatbázis terv: 
 
+
+Gondozók tábla
+id,
+nev, 
+munkakor,
+kepzettseg
+
+Örökbefogadható állatok tábla
+id,
+nev,
+kep, 
+kor,
+nem, 
+fajta,
+meret,
+mozgasigeny,
+ivartalanitott, 
+gyerekbarat 
+
+Talált állatok tábla
+id,
+kep,
+hely, 
+allapot,
+telefonszam
+
+Örökbefogadási szándék tábla  
+id,
+nev,
+eletkor,
+email,
+telefonszam,
+kutya azonositoja
+
 Implementációs terv:
 
 Tesztterv:
