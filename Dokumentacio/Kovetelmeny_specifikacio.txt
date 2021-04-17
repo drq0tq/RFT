@@ -31,7 +31,7 @@ Vágyálom Rendszer:
 Egy letisztult, könnyen kezelhető weboldal, ahol egy szűrő segítségével mindenki könnyen megtalálja a számára ideális kutyát és egy űrlap segítségével jelezheti is örökbefogadási szándékát.
 Illetve, ha gazda nélküli kutyát talál valaki, weboldalunkon azt is be tudja jelenteni.
 Bejelentkezés után admin felület használata . Csak admin jogosultsággal lehet az oldalon megjelenő adatokat módosítani.
-Visszajelzési felület, ahol a már örökbefogadott kisbabákról friss infókat osztanak meg, pl hogy érzik magukat az új gazdinál
+Visszajelzési felület, ahol a már örökbefogadott állatokról képeket oszthatnak meg a felhasználók.
 Felület, amelyen a menhely támogatási lehetőségeit listázzuk
 
 Funkcionális követelmények:
