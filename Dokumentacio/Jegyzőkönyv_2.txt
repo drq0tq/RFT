@@ -19,6 +19,8 @@ Megbeszéltek:
             - A dokumentáció kérdéses részeit átbeszéltük, átírtuk.
             - A Jelenlegi feladatokat kiosztottuk, kérdéses részeket átbeszéltük.
             - Igényelt üzleti folyamatok modelljén változtatásokat/átalakítást beszéltünk meg.
+            - Felhasználói regisztráció/bejelentkezés funkció hozzáadása: az örökbefogadási szándékot csak regisztráció/bejelentkezés után lehessen jelezni.
+            - Admin felület kibővítése: a "Talált állatok" és az "Örökbefogadott állatok" oldalakon a felhasználók által beküldött képeket fogják látni az adminként belépett felhasználók.
              
 ------------------------------------------
 - A weboldal fejlesztése folyamatosan halad.
