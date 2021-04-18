@@ -12,7 +12,6 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -132,6 +131,7 @@ INSERT INTO `talalt_allatok` (`id`, `kep`, `hely`, `allapot`, `telefonszam`) VAL
 --
 -- A tábla indexei `gondozok`
 --
+
 ALTER TABLE `gondozok`
   ADD PRIMARY KEY (`id`);
 
@@ -218,6 +218,37 @@ ALTER TABLE `felhasznalok`
 --
 ALTER TABLE `felhasznalok`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+COMMIT;
+
+
+--
+-- Tábla szerkezet ehhez a táblához `orokbefogadott_kepek`
+--
+
+CREATE TABLE `orokbefogadott_kepek` (
+  `id` int(11) NOT NULL,
+  `kep` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Indexek a kiírt táblákhoz
+--
+
+--
+-- A tábla indexei `orokbefogadott_kepek`
+--
+ALTER TABLE `orokbefogadott_kepek`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- A kiírt táblák AUTO_INCREMENT értéke
+--
+
+--
+-- AUTO_INCREMENT a táblához `orokbefogadott_kepek`
+--
+ALTER TABLE `orokbefogadott_kepek`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
