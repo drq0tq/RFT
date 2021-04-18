@@ -37,7 +37,7 @@ body {
     
     #Fejlec{
 	height: 157px;
-background-image: url(p.jpg);
+background-image: url(hatter.jpg);
 	cursor:default;
 	text-align:right;
     }
