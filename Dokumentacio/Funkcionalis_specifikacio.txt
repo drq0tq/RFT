@@ -2,7 +2,8 @@ Követelményelemzés:
 
 Célunk egy olyan weboldal elkészítése, amely lehetővé teszi a felhasználók számára egy talált állat bejelentését, ezzel is segítve a kutyákat, 
 hogy minél kevesebben legyenek az utcán élelem, és szerető gazdi nélkül. Szeretnénk, hogy minden menhelyen lévő kutya szerető otthonra leljen, 
-ezért is terveztünk megvalósítani egy könnyen kezelhető weboldalt, ahol a kutyát kereső felhasználók egyszerűen és gyorsan meg tudják találni a számukra legideálisabb kutyát. 
+ezért is terveztünk megvalósítani egy könnyen kezelhető weboldalt, ahol a kutyát kereső felhasználók egyszerűen és gyorsan meg tudják találni a számukra legideálisabb kutyát.
+A regisztrált felhasználók egy űrlap segítségével jelezhetik is az adminok számára, ha valamelyik állatot örökbe szeretnék fogadni. 
 Ennek érdekében, szűrési lehetőséget biztosítunk az örökbefogadó állatok között.
 
 Követelménylista:
@@ -12,46 +13,74 @@ k1: Jogosultsági szintek
 -Admin: örökbefogadható állatok listájának szerkeszthetősége, gondozók listájának szerkeszthetősége
 -Felhasználó: talált állat bejelentésének lehetősége, örökbefogadható állatok megtekintése,
  szűrési lehetőség, örökbefogadási szándék jelzése
+-Regisztrált felhasználó: megjelenik nekik pluszban egy űrlap kitöltési lehetőség, ahol jelezhetik, ha valamelyik állatot örökbe szeretnék fogadni.
 
-k2: Admin bejelentkezés
+k2: Bejelentkezés
 
--Az adminok ezen a felületen tudnak bejelentkezni,a weboldal karbantartásához.
+-Ezen a felületen, jogosultság vizsgálat után tudnak bejelentkezni a weboldalra a felhasználók.
 
-k3: Örökbefogadható állatok
+k3: Regisztráció
+
+-A felhasználó email cím, jelszó, életkor, vezetéknév és keresztnév megadásával tud regisztrálni. 
+Ha ezek közül valamelyik adat nem felel meg az általunk meghatározott követelményeknek, akkor a felhasználó hibaüzenetet kap.
+
+k4: Elfelejtett jelszó
+
+-Abban az esetben ha a felhasználó elfelejtette a jelszavát, e-mail-en keresztül fel kell vennie a kapcsolatot az adminnal.
+
+k5: Örökbefogadható állatok
 
 -Ezen a felületen láthatják és szűrhetik a felhasználók az aktuálisan örökbefogadható állatok listáját.
--A felhasználóknak lehetősége van egy űrlap segítségével jelezni, ha örökbe szeretnék fogadni az egyik állatot.
+-A regisztrált felhasználóknak lehetősége van egy űrlap segítségével jelezni, ha örökbe szeretnék fogadni az egyik állatot.
 -Admin jogosultsággal szerkeszthető.
 
-k4: Talált állat bejelentése
+k6: Talált állat bejelentése
 
 -Ezen a felületen a felhasználóknak lehetőségük van egy kóbor állat bejelentésére.
 -Kötelező feltüntetni a bejelenteni kívánt állat tartózkodási helyét.
+-Képfeltöltésre is van lehetőség, a feltöltött képeket adatbázisban tároljuk.
+-Admin felületen a talált állatok képei jelennek meg kilistázva.
 
-k5:Kapcsolat
+k7:Kapcsolat
 
 -Ezen a felületen láthatják a felhasználók a menhely elérhetőségeit.
 
-
-k6: Támogatás
+k8: Támogatás
 
 -Ezen a felületen tudnak tájékozódni a felhasználók a támogatási lehetőségekről.
 
-k7: Kezdőlap
+k9: Kezdőlap
 
 -Ezen a felületen találják a felhasználók a menhely általános információit.
 
-k8: Gondozók
+k10: Gondozók
 
 -Ezen a felületen látható a menhelyen dolgozó gondozók listája (adatbázisból).
 -Admin jogosultsággal szerkesztési lehetőség.
 
-k9: Már gazdát talált állatok
+k11: Már gazdát talált állatok
 
 -Ezen a felületen, akik már fogadtak örökbe nálunk kutyát, tudnak képet feltölteni és küldeni az adminoknak.
-
+-Az admin felületen a beküldött képek jelennek meg.
 
 Használati esetek:
 
 Funkció-követelmény megfeleltetés:
 
+-Jogkörök:
+k1, k2, k3, k4, k5, k6, k10, k11 követelménynek felel meg. Más funkciókhoz fér hozzá egy sima felhasználó mint az adminisztrátor.
+
+-Szűrés:
+k3 követelménynek felel meg. Lehet szűrni az örökbefogadható állatok között.
+
+-Weboldal kezelés:
+k3, k8 követelményeknek felel meg. A weboldalra adminként bejelentkezéssel lehet új adatokat feltölteni a rendszerbe, módosítani azokat, ha kell, illetve törölni is.
+
+-Képfeltöltés:
+k9, k4 követelményeknek felel meg. A képek azonosítói megjelennek-e az adatbázisban.
+
+-Regisztráció:
+k3 követelménynek felel meg. A felhasználók tudnak regisztrálni, így az weboldal egy plusz funkciójához férhetnek hozzá.
+
+-Bejelentkezés:
+k2 követelménynek felelmeg. A felhasználók be tudnak lépni a weboldalra. Jogosultság vizsgálat történik.
