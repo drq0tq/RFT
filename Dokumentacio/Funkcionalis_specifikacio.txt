@@ -53,5 +53,29 @@ k9: Már gazdát talált állatok
 
 Használati esetek:
 
+Hozzáférések jogosultság szerint:
+Felhasználó
+Regisztrált felhasználó
+Adminisztrátor
+
+Felhasználó használati esetei:
+Listázás: Képes az összes örökbefogadható állatot kilistázni.
+Szűrés: Képes az örökbefogadható állatok között szűrni (pl.: kor, nem szerint).
+Állat bejelentés: Képes talált állatot bejelenteni.
+Kép feltöltés: Képes a talált állatról képet feltölteni
+Regisztrált felhasználó használati esetei:
+Regisztráció
+Bejelentkezés
+Listázás: Képes az összes örökbefogadható állatot kilistázni.
+Szűrés: Képes az örökbefogadható állatok között szűrni (pl.: kor, nem, méret szerint).
+Állat bejelentés: Képes talált állatot bejelenteni.
+Kép feltöltés: Képes a talált állatról képet feltölteni
+Örökbefogadási szándék jelzése
+Adminisztrátor felhasználó használati esetei:
+Bejelentkezés: Az adminisztrátor képes bejelentkezni a rendszerbe.
+Örökbefogadható állatok illetve gondozók kezelése: Képes a listát módosítani, új adatot felvenni.
+A “Talált állatok” illetve az “Örökbefogadott állatok” weboldalakon láthatják a felhasználók által beküldött képeket.
+
+
 Funkció-követelmény megfeleltetés:
 
