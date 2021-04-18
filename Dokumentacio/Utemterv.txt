@@ -1,0 +1,54 @@
+Ütemterv:
+
+Sprint 1-1 [21/04/18]
+
+
+- Adatbázis táblák létrehozása:
+gondozók
+örökbefogadható állatok
+talált állatok
+örökbefogadási szándék
+
+- Adatbázis feltöltése alap adatokkal
+
+A weboldalunk “Örökbefogadható állatok”, “Talált állatok” és “Gondozók” menüpontja az adatbázis táblákban eltárolt adatokat fogják tartalmazni.
+
+Sprint 1-2 [21/04/20]
+
+
+- index oldal létrehozása
+- menürendszer kialakítása 
+- kapcsolat oldal kialakítása (beágyazott térkép, e-mail küldési lehetőség)
+
+Sprint 2-1 [21/04/22]
+
+- talált állat bejelentése: űrlap és képfeltöltés kialakítása
+- támogatás oldal létrehozása
+- gondozók/örökbefogadható állatok megjelenítése adatbázisból
+- örökbefogadási szándék jelzése űrlap segítségével
+- örökbefogadott állat kép feltöltése
+
+Sprint 2-2 [21/04/24]
+
+
+- admin jogosultság vizsgálata
+- admin felület kialakítása (CRUD műveletek megvalósítása)
+-regisztráció kialakítása
+-bejelentkezés kialakítása
+
+Erre azért van szükség, hogy az admin tudja szerkeszteni az adatbázis táblákat.
+Az admin felületet és a felhasználói felületet külön kezeljük.
+
+Sprint 3-1 [21/04/26]
+
+
+-talált állatok adatainak kilistázása admin esetén
+
+Ha valaki az utcán talál egy kóbor állatot, azt egy űrlap kitöltésével jelezheti nekünk, mi pedig intézkedünk.
+Az űrlap kitöltésnél a hely és a telefonszám megadása kötelező. Az űrlap esetén ellenőrizzük az adatok formai helyességét (validáció).
+
+-szűrési funkció megvalósítása
+
+Weboldalunk lehetőséget nyújt az örökbefogadható állatok között különböző kritériumok alapján való szűrésre. Megkönnyítve ezzel,
+hogy mindenki megtalálja a neki megfelelő kutyát, amennyiben megtalálta a felhasználó a számára ideális kutyát, akkor egy űrlap segítségével,
+adatai megadásával jelezni tudja az adminok felé, hogy örökbe szeretné fogadni az állatot és az adminok felveszik vele a kapcsolatot.
