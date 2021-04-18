@@ -1,5 +1,14 @@
 A rendszer célja:
 
+A rendszer célja, hogy segítsük az örökbefogadás menetét és létrehozzunk egy olyan felületet ahol be lehet jelenteni a kóbor állatokat, hogy mihamarabb biztonságba kerüljenek. 
+A rendszer webes felületen elérhető. 
+Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken ezért minimalista felhasználói felületet kap a weboldal. 
+Az admin szerepkörrel rendelkező felhasználók szerkeszthetik a “gondozók” és az “örökbefogadható állatok” weboldalakat. 
+A sima felhasználó szerepkörrel rendelkezők megtekinthetik az örökbefogadható állatokat, szűrhetnek közöttük a megadott kritériumok alapján, egy űrlap segítségével jelezhetik örökbefogadási szándékukat, bejelenthetnek talált állatokat, illetve küldhetnek képet az adminoknak a már örökbefogadott állatokról. 
+A rendszer az adatok egy részét adatbázisból kapja. 
+A szolgáltatás egyenlőre csak webes felületen elérhető, egyenlőre nem célunk hogy más, például IOS, vagy Android operációs rendszerrel rendelkező eszközön fusson. 
+
+
 Rendszer szerepkörök:
 
 - admin
@@ -18,6 +27,11 @@ Talált állat bejelentésére van lehetősége.
 Aki fogadott már örökbe nálunk állatot, azoknak képfeltöltési/képküldési lehetőség az adminok részére.
 
 Fizikai környezet:
+
+-Az alkalmazás webes platformra készül. 
+-Nincsenek megvásárolt komponenseink. 
+-Fejlesztői eszközök: MySQL, Brackets, Visual Studio Code,
+
 
 Adatbázis terv: 
 
