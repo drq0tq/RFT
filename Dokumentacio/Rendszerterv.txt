@@ -2,7 +2,20 @@ A rendszer célja:
 
 Rendszer szerepkörök:
 
+- admin
+- felhasználó
+
 Rendszerhasználati esetek:
+
+Admin:
+Örökbefogadható állatok listájának szerkesztése: új elem hozzáadása, elem törlése.
+Gondozók listájának szerkesztése: új elem hozzáadása, elem törlése.
+
+Felhasználó:
+Örökbefogadható állatok megtekintése, szűrési lehetőség. 
+Örökbefogadási szándék jelzése, űrlap segítségével.
+Talált állat bejelentésére van lehetősége.
+Aki fogadott már örökbe nálunk állatot, azoknak képfeltöltési/képküldési lehetőség az adminok részére.
 
 Fizikai környezet:
 
