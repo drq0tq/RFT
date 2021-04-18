@@ -54,6 +54,13 @@ email,
 telefonszam,
 kutya azonositoja
 
+Felhasználók tábla
+id,
+nev,
+email,
+jelszo,
+eletkor
+
 Implementációs terv:
 
 A Weboldalunk főként PHP, CSS, és HTML nyelven fog készülni.
