@@ -7,23 +7,25 @@ Sprint 1-1 [21/04/18]
 gondozók
 örökbefogadható állatok
 talált állatok
+felhasználók
 örökbefogadási szándék
 
 - Adatbázis feltöltése alap adatokkal
 
 A weboldalunk “Örökbefogadható állatok”, “Talált állatok” és “Gondozók” menüpontja az adatbázis táblákban eltárolt adatokat fogják tartalmazni.
+Regisztráció után a felhasználók adatait szintén adatbázisban tároljuk, illetve az örökbefogadási szándék bejelentéséhez szükséges űrlapon kitöltött adatokat is.
 
 Sprint 1-2 [21/04/20]
 
 
 - index oldal létrehozása
 - menürendszer kialakítása 
-- kapcsolat oldal kialakítása (beágyazott térkép, e-mail küldési lehetőség)
+- támogatás oldal létrehozása
 
 Sprint 2-1 [21/04/22]
 
 - talált állat bejelentése: űrlap és képfeltöltés kialakítása
-- támogatás oldal létrehozása
+- kapcsolat oldal kialakítása (beágyazott térkép, e-mail küldési lehetőség)
 - gondozók/örökbefogadható állatok megjelenítése adatbázisból
 - örökbefogadási szándék jelzése űrlap segítségével
 - örökbefogadott állat kép feltöltése
@@ -33,8 +35,8 @@ Sprint 2-2 [21/04/24]
 
 - admin jogosultság vizsgálata
 - admin felület kialakítása (CRUD műveletek megvalósítása)
--regisztráció kialakítása
--bejelentkezés kialakítása
+- regisztráció kialakítása
+- bejelentkezés kialakítása
 
 Erre azért van szükség, hogy az admin tudja szerkeszteni az adatbázis táblákat.
 Az admin felületet és a felhasználói felületet külön kezeljük.
