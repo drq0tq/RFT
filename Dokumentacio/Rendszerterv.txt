@@ -28,6 +28,11 @@ Aki fogadott már örökbe nálunk állatot, azoknak képfeltöltési/képküld�
 
 Fizikai környezet:
 
+-Az alkalmazás webes platformra készül. 
+-Nincsenek megvásárolt komponenseink. 
+-Fejlesztői eszközök: MySQL, Brackets, Visual Studio Code,
+
+
 Adatbázis terv: 
 
 Gondozók tábla
