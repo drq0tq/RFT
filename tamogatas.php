@@ -1,34 +1,10 @@
 <?php
 include 'index.php';
 ?>
-<html>
+<html lang="hu">
 <head>
-    <style>
-    h1{
-        margin-top: 53px;
-    }
-   body
-    {
-      
-       color:#e65c00;
-       
-        
-    }
-    p{
-        font-size: 20px;
-    }
-    form {
-        width: 70%;
-        padding: 20px 50px 20px 20px;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-         font-family: cursive;
-        background-color:#ffdd99;
-        
-        
-    }
-</style>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/app.css" ?>
 </head>
 <body>
 <form align="center">
@@ -40,42 +16,39 @@ include 'index.php';
 <p>Ha egyetért céljainkkal, törekvéseinkkel, akkor csatlakozzon hozzánk és legyen tagunk!
 Tagsági nyilatkozat letölthető innen <br/><br/>
 
-Tagsági díjak:<br/><br/>
+Tagsági díjak:<br/><br/></p>
 
-    </p><ul>
-<li>Felnőtt: 3000 Ft/év</li>
+<ul class=lista>
+<li> Felnőtt: 3000 Ft/év</li>
 <li> Diák 900 Ft/év</li>
 <li> Nyugdíjas 1800 Ft/év</li>
 </ul> 
    
-   <br>
+<br>
 
 <p>(Ezen felül egyszeri200 Ft a tagsági kis könyv kiállítási díja)<br>
 A tagsághoz szükséges a tagdíj befizetése, 2 igazolványkép és a kitöltött nyilatkozat, amelyet a Titkárság címére kell eljuttatni (1113 Bp. Nagyszőlős utca 21.)</p>
-
 
 <h2>Tárgyi adománnyal</h2>
 
 <p>Tárgyi adományokkal kapcsolatban, kérjük, a legközeebbi tagszervezetünkkel vegye fel a kapcsolatot, hogy megtudja, éppen mire szorulnak rá a legjobban.<br><br>
 
-Néhány dolog, amelyre szinte mindenhol szükség van:<img src="kutya3.jpg"  width="30%" align="right" ><br><br></p>
+<p>Néhány dolog, amelyre szinte mindenhol szükség van:</p><img src="kutya3.jpg"  width="30%" align="right" ><br><br>
 
-<ul>
+<ul class=lista>
 <li> állateledel minden mennyiségben</li>
-<li> felszerelések</li>
-    <ul>
+<li> felszerelések:</li>
+    <ul class=lista>
         <li> póráz, nyakörv</li>
         <li> kutya/macska ház</li>
         <li> itató-, etető tálak</li>
         <li> alomanyagok</li>
         <li> játékok (labda, kötél)</li>
         <li> tisztítószerek és felszerelések (pl. fertőtlenítőszerek)</li>
-        <li>főleg tél előtt takarók, plédek, szőnyegek az állatok alá</li>
-        <li>gyógyszerek (bolha-, kullancsirtók, féreghajtók, kötszerek, fertőtlenítők)</li>
+        <li> főleg tél előtt takarók, plédek, szőnyegek az állatok alá</li>
+        <li> gyógyszerek (bolha-, kullancsirtók, féreghajtók, kötszerek, fertőtlenítők)</li>
     </ul>
 </ul>
-
-    
 
 <h2>Önkéntes munkával</h2>
 
@@ -86,14 +59,14 @@ Néhány dolog, amelyre szinte mindenhol szükség van:<img src="kutya3.jpg"  wi
 
  <br><br>
 
-Különösen nagy szükség van ideiglenes befogadókra: <img src="kutya2.jpg"  width="30%" align="right" > <br><br></p> 
+<p>Különösen nagy szükség van ideiglenes befogadókra:</p> <img src="kutya2.jpg"  width="30%" align="right" > <br><br>
 
-<ul>
+<ul class=lista>
     <li> pár hetes kiskutyák/kiscicák gondozásánál</li>
-    <li>  lelkileg sérült állatok rehabilitációjánál</li>
-    <li>  télen rövidszőrű, kistestű, esetleg idős kutyáknál</li>
+    <li> lelkileg sérült állatok rehabilitációjánál</li>
+    <li> télen rövidszőrű, kistestű, esetleg idős kutyáknál</li>
     <li> érzékeny állatoknál, akik lelkileg nem tudják elviselni az állatotthonokat és magukba fordulnak</li>
-    <li>   műtét után lábadozóknál</li>
+    <li> műtét után lábadozóknál</li>
 </ul> 
 
 <h2>Virtuális örökbefogadással</h2>
