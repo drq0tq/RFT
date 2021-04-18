@@ -62,4 +62,9 @@ Ezekeket a hiányosságokat szeretnénk kijavítani az általunk készített web
 
 Igényelt üzleti folyamatok:
 
+A Jelenlegi üzleti folyamatok modellje részben megfogalmazott hiányosságokat szeretnénk kijavítani.
+
+Az ábra linkje: 
+https://drive.google.com/file/d/1V-09eJjcjn4odUNJDagtrlhd9g2PTy7R/view?usp=sharing
+
 Követelménylista:
