@@ -63,3 +63,11 @@ Ezekeket a hiányosságokat szeretnénk kijavítani az általunk készített web
 Igényelt üzleti folyamatok:
 
 Követelménylista:
+- Egyszerű weboldal kezelés
+- Letisztult design
+- Crud műveletek használata
+- Állatbarátoknak
+- Keresési lehetőség
+- Adatbázis kapcsolat
+-Regisztráció/bejelentkezés
+-Jogosultság vizsgálata
