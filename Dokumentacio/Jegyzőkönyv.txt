@@ -7,7 +7,7 @@ Második csoportgyűlés
 Jelenlévők: Bíró Daniella
          Molnár Adrienn
          Nyuzó Bíborka
-                     Zörgő Ádám Gábor	
+         Zörgő Ádám Gábor	
 
 Megbeszélés helye: Discord
 Ideje: 2021.04.14. 18:00 - 20:00
@@ -33,7 +33,9 @@ Megbeszéltek:
 - 4, Admin és felhasználói felület kialakítása
       - Bejelentkezés adminisztrátorként
       - Admin felület: CRUD műveletek az örökbefogadható állatok és a gondozók táblához.
-      - Felhasználói felület: örökbefogadható állatok kilistázása, adataik megtekintése, szűrés       közöttük különböző kritériumok alapján, illetve egy űrlap segítségével jelezni tudják a felhasználók az adminok felé, ha örökbe szeretnék fogadni az egyik állatot.
+      - Felhasználói felület: örökbefogadható állatok kilistázása, adataik megtekintése, 
+        szűrés közöttük különböző kritériumok alapján, illetve egy űrlap segítségével jelezni tudják
+        a felhasználók az adminok felé, ha örökbe szeretnék fogadni az egyik állatot.
 
 Feladatok:
 ----------
