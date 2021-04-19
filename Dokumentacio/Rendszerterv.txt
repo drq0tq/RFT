@@ -113,6 +113,33 @@ Telepítési terv:
 -Webes alkalmazás: A webes felület használatához csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Firefox, Opera), külön szoftver nem kell hozzá. 
 A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
 
+Tesztelendő funkciók:
+
+Talált állat bejelentése funkció: A talált állat bejelentését követően az adatbázisban megjelennek-e az adatok, a követelményeknek nem megfelelő adatok esetén van-e hibaüzenet
+
+Szűrési funkció: A szűrésnél csak a kritériumoknak megfelelő adatok lesznek-e láthatóak.
+
+Örökbefogadási szándék jelzése funkció.
+
+Már örökbefogadott állatról kép küldési funkció.
+
+Regisztrációs funkció: Nem az általunk meghatározott kritériumoknak megfelelő adatok esetén van-e hibaüzenet, regisztráció után megjelennek-e az adatok az adatbázisban.
+
+Felhasználói belépés funkció: Csak a regisztrációnál megadott adatok esetén tud-e belépni a felhasználó, be tud-e lépni, elérhető-e neki a plusz funkció.
+
+Elfelejtett jelszó esetén jelszómódosítási funkció: Megváltozik-e az adatbázisban a jelszó
+
+Admin felületen: 
+
+Bejelentkezés funkció: Csak a megfelelő adatok megadásakor enged-e belépni a weboldal, nem megfelelő adatok esetén van-e hibaüzenet
+
+Törlési funkció:(örökbefogadható állatok és gondozók oldalra is érvényes) Törlődik-e az adat az adatbázisból.
+
+Új adat hozzáadása funkció:(örökbefogadható állatok és gondozók oldalra is érvényes) Az új adatok megjelennek-e az adatbázisban.
+
+Adatok szerkesztése funkció:(örökbefogadható állatok és gondozók oldalra is érvényes) Az adatok szerkesztése esetén megváltozik-e az adott adat az adatbázisban.
+
+
 Karbantartási terv:
 
 Az alkalmazás folyamatos üzemeltetése és karbantartása, amely magában foglalja a weboldal naprakész állapotban tartását, a programhibák elhárítását, 
