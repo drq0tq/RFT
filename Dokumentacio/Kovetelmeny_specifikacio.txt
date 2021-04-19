@@ -67,7 +67,11 @@ Ezekeket a hiányosságokat szeretnénk kijavítani az általunk készített web
 
 Igényelt üzleti folyamatok:
 
-<<<<<<< HEAD
+A Jelenlegi üzleti folyamatok modellje részben megfogalmazott hiányosságokat szeretnénk kijavítani.
+
+Az ábra linkje: 
+https://drive.google.com/file/d/1V-09eJjcjn4odUNJDagtrlhd9g2PTy7R/view?usp=sharing
+
 Követelménylista:
 - Egyszerű weboldal kezelés
 - Letisztult design
@@ -77,11 +81,4 @@ Követelménylista:
 - Adatbázis kapcsolat
 -Regisztráció/bejelentkezés
 -Jogosultság vizsgálata
-=======
-A Jelenlegi üzleti folyamatok modellje részben megfogalmazott hiányosságokat szeretnénk kijavítani.
 
-Az ábra linkje: 
-https://drive.google.com/file/d/1V-09eJjcjn4odUNJDagtrlhd9g2PTy7R/view?usp=sharing
-
-Követelménylista:
->>>>>>> 21f4772387ce630a1aae49b8b826bbeafe899e38
