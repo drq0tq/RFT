@@ -9,9 +9,12 @@ Weboldal rövid leírása:
 
 Az általunk készített honlap egy menhely weboldala, amelyen az aktuálisan örökbefogadható állatokat és azok adatait tekinthetik meg a felhasználók.
 A könnyebb keresés érdekében szűrési lehetőséget is biztosítunk az oldalon. Illetve talált állatokat is be tudnak jelenteni.
+Akik már fogadtak örökbe menhelyünknél, nekik van lehetőségük képet küldeni az adminok részére, hogy tudják, az állat jó helyen van.
+A felhasználóknak lehetőségük van regisztrálni is a weboldalra, így kapnak egy plusz funkciót, mellyel jelezhetik ha egy kutyát örökbe szeretnének fogadni.
 A weboldalon az admin jogosultsággal rendelkezőknek lehetőségük van örökbefogadható állatok hozzáadására, törlésére illetve azok adatainak módosítására is.
 A weboldalon továbbá megjelenítjük adatbázisból a menhelyen dolgozó gondozók listáját is. 
 Admin jogosultsággal rendelkezők az itt megjelenő adatokat is tudják módosítani, illetve tudnak gondozót törölni az adatbázisból, és újabb gondozót hozzáadni is.
+Az admin szerepkörrel rendelkezők a "Talált állatok" és az "Örökbefogadott állatok" oldalakon a felhasználók által beküldött képeket láthatják.
 
 Jelenlegi helyzet:
 
@@ -19,7 +22,7 @@ A mai világban fontos, hogy egy állatmenhelynek is legyen weboldala, hogy ezá
 Sok ilyen weboldalon viszont nincsenek az örökbefogadható állatokról képek, nem frissül elég gyakran az oldal, vagy, ha sok állat közül lehet választani,
 nincs szűrési lehetőség, hogy könnyebben megtalálják az emberek a nekik való kutyát.
 Oldalunkon fontosnak tartjuk ezeket a hiányosságokat pótolni, az admin felületen könnyen és gyorsan karbantartható az oldal, így a felhasználók mindig friss információt kapnak, 
-illetve szűrési funkciót is szeretnénk létrehozni.
+illetve szűrési funkciót is szeretnénk létrehozni. Oldalunkon az örökbefogadásra jelentkezést pedig regisztrációhoz kötötté szeretnénk tenni.
 
 Annak ellenére, hogy 2013 óta kötelezően el kell látnunk a kutyánkat chippel, még mindig nagyon sok kóbor, gazda és chip nélküli kutyát találni. 
 Ha valaki kóbor kutyát talál, arra jelenleg nincs egy könnyen kezelhető, az állat bejelentésére való felület. 
@@ -28,7 +31,7 @@ Ennek a problémának a megoldására találtuk ki, hogy weboldalunkon lehetős�
 
 Vágyálom Rendszer:
 
-Egy letisztult, könnyen kezelhető weboldal, ahol egy szűrő segítségével mindenki könnyen megtalálja a számára ideális kutyát és egy űrlap segítségével jelezheti is örökbefogadási szándékát.
+Egy letisztult, könnyen kezelhető weboldal, ahol egy szűrő segítségével mindenki könnyen megtalálja a számára ideális kutyát és regisztráció után egy űrlap segítségével jelezheti is örökbefogadási szándékát.
 Illetve, ha gazda nélküli kutyát talál valaki, weboldalunkon azt is be tudja jelenteni.
 Bejelentkezés után admin felület használata . Csak admin jogosultsággal lehet az oldalon megjelenő adatokat módosítani.
 Visszajelzési felület, ahol a már örökbefogadott állatokról képeket oszthatnak meg a felhasználók.
@@ -36,8 +39,10 @@ Felület, amelyen a menhely támogatási lehetőségeit listázzuk
 
 Funkcionális követelmények:
 A weboldalon admin jogosultsággal az örökbefogadható állatok és a gondozók oldalon lehetőség lesz az adatok módosítására, törlésére illetve új adat hozzáadására. 
-A felhasználók szűrő segítségével tudnak szűrni az örökbefogadható állatok között és tudják jelezni az adminok számára az örökbefogadási szándékot. 
+Illetve az adminok a "Talált állatok" és az "Örökbefogadott állatok" oldalakon a felhasználók által beküldött képeket láthatják, a képfeltöltés helyett.
+A felhasználók szűrő segítségével tudnak szűrni az örökbefogadható állatok között.
 A felhasználók számára talált állat bejelentésére is lesz lehetőség, egy űrlap kitöltésével, és akár fénykép feltöltésével tudják jelezni az adminok felé, ha egy kóbor állatot találnak.
+Regisztráció után az "Örökbefogadható állatok" oldalon megjelenik egy plusz funkció a felhasználóknak, mellyel egy űrlap segítségével jelezhetik örökbefogadási szándékukat.
 
 Nem funkcionális követelmények:
 
@@ -57,11 +62,12 @@ A Polgári Törvénykönyv (Ptk.) értelmében állatot örökbefogadási szerz�
 
 
 Jelenlegi üzleti folyamatok modellje:
-A meglévő menhely weboldalak nehezen kezelhetőek, nem minden esetben átláthatóak, nem lehet szűrni az örökbefogadható állatok között, illetve nincs lehetőség talált állat bejelentésére. 
+A meglévő menhely weboldalak nehezen kezelhetőek, nem minden esetben átláthatóak, nem lehet szűrni az örökbefogadható állatok között, nem minden esetben tartalmaznak regisztrációt, illetve nincs lehetőség talált állat bejelentésére. 
 Ezekeket a hiányosságokat szeretnénk kijavítani az általunk készített weboldalon.
 
 Igényelt üzleti folyamatok:
 
+<<<<<<< HEAD
 Követelménylista:
 - Egyszerű weboldal kezelés
 - Letisztult design
@@ -71,3 +77,11 @@ Követelménylista:
 - Adatbázis kapcsolat
 -Regisztráció/bejelentkezés
 -Jogosultság vizsgálata
+=======
+A Jelenlegi üzleti folyamatok modellje részben megfogalmazott hiányosságokat szeretnénk kijavítani.
+
+Az ábra linkje: 
+https://drive.google.com/file/d/1V-09eJjcjn4odUNJDagtrlhd9g2PTy7R/view?usp=sharing
+
+Követelménylista:
+>>>>>>> 21f4772387ce630a1aae49b8b826bbeafe899e38

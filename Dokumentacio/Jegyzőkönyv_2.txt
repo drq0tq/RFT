@@ -1,0 +1,29 @@
+Jegyzőkönyv 2:
+
+Csoportgyűlés 
+---------------------
+
+Harmadik csoportgyűlés
+----------------------------------
+
+Jelenlévők: Bíró Daniella
+            Molnár Adrienn
+            Nyuzó Bíborka
+            Zörgő Ádám Gábor	
+
+Megbeszélés helye: Discord
+Ideje: 2021.04.16. 19:00 - 20:00
+
+Megbeszéltek:
+--------------------
+            - A dokumentáció kérdéses részeit átbeszéltük, átírtuk.
+            - A Jelenlegi feladatokat kiosztottuk, kérdéses részeket átbeszéltük.
+            - Igényelt üzleti folyamatok modelljén változtatásokat/átalakítást beszéltünk meg.
+            - Felhasználói regisztráció/bejelentkezés funkció hozzáadása: az örökbefogadási szándékot csak regisztráció/bejelentkezés után lehessen jelezni.
+            - Admin felület kibővítése: a "Talált állatok" és az "Örökbefogadott állatok" oldalakon a felhasználók által beküldött képeket fogják látni az adminként belépett felhasználók.
+             
+------------------------------------------
+- A weboldal fejlesztése folyamatosan halad.
+
+A csoportgyűlés tagjai elfogadták a megbeszélteket és a változtatásokat.
+

@@ -1,10 +1,48 @@
 A rendszer célja:
 
+A rendszer célja, hogy segítsük az örökbefogadás menetét, illetve létrehozzunk egy olyan felületet ahol be lehet jelenteni a kóbor állatokat, hogy mihamarabb biztonságba kerüljenek. 
+A rendszer webes felületen elérhető. 
+Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken ezért minimalista felhasználói felületet kap a weboldal. 
+Az admin szerepkörrel rendelkező felhasználók szerkeszthetik a “Gondozók” és az “Örökbefogadható állatok” weboldalakat. 
+A sima felhasználó(vendég) szerepkörrel rendelkezők megtekinthetik az örökbefogadható állatokat, szűrhetnek közöttük a megadott kritériumok alapján, bejelenthetnek talált állatokat, illetve küldhetnek képet az adminoknak a már örökbefogadott állatokról. 
+A regisztrált felhasználók rendelkeznek minden, a vendég felhasználót is megillető funkció használati jogával, illetve plusz lehetőségként egy űrlap kitöltésének segítségével jelezhetik az adminok felé örökbefogadási szándékukat.
+A regisztrált felhasználók adatait regisztráció után adatbázisban tároljuk.
+A rendszer az adatok egy részét adatbázisból kapja. 
+A szolgáltatás egyenlőre csak webes felületen elérhető, egyenlőre nem célunk hogy más, például IOS, vagy Android operációs rendszerrel rendelkező eszközön fusson. 
+
+
 Rendszer szerepkörök:
+
+- admin
+- felhasználó
+- regisztrált felhasználó
 
 Rendszerhasználati esetek:
 
+Admin:
+Örökbefogadható állatok listájának szerkesztése: új elem hozzáadása, elem törlése.
+Gondozók listájának szerkesztése: új elem hozzáadása, elem törlése.
+A "Talált állatok" és az "Örökbefogadott állatok" weboldalakon, admin jogosultsággal a felhasználók által beküldött képek lesznek láthatóak a képfeltöltés helyett.
+
+Felhasználó:
+Örökbefogadható állatok megtekintése, szűrési lehetőség. 
+Örökbefogadási szándék jelzése, űrlap segítségével.
+Talált állat bejelentésére van lehetősége.
+Aki fogadott már örökbe nálunk állatot, azoknak képfeltöltési/képküldési lehetőség az adminok részére.
+
+Regisztrált felhasználó:
+Örökbefogadható állatok megtekintése, szűrési lehetőség. 
+Örökbefogadási szándék jelzése, űrlap segítségével.
+Talált állat bejelentésére van lehetősége.
+Aki fogadott már örökbe nálunk állatot, azoknak képfeltöltési/képküldési lehetőség az adminok részére.
+Egy űrlap kitöltésének segítségével jelezhetik az adminok felé örökbefogadási szándékukat.
+
 Fizikai környezet:
+
+-Az alkalmazás webes platformra készül. 
+-Nincsenek megvásárolt komponenseink. 
+-Fejlesztői eszközök: MySQL, Brackets, Visual Studio Code,
+
 
 Adatbázis terv: 
 
@@ -40,6 +78,17 @@ eletkor,
 email,
 telefonszam,
 kutya azonositoja
+
+Felhasználók tábla
+id,
+nev,
+email,
+jelszo,
+eletkor
+
+Örökbefogadott állatok képei tábla
+id, 
+kep
 
 Implementációs terv:
 

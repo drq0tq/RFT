@@ -1,0 +1,52 @@
+Csoportgyűlés 
+-------------
+
+Második csoportgyűlés
+----------------------
+
+Jelenlévők: Bíró Daniella
+         Molnár Adrienn
+         Nyuzó Bíborka
+         Zörgő Ádám Gábor	
+
+Megbeszélés helye: Discord
+Ideje: 2021.04.14. 18:00 - 20:00
+
+Megbeszéltek:
+-------------
+	
+- 1, Adatbázis
+      - Adatbázis létrehozása
+      - Táblák létrehozása
+      - Adatbázis feltöltése alap adatokkal 
+
+- 2, Weboldal létrehozása
+      - Index oldal létrehozása
+      - Kapcsolat menüpont: beágyazott térkép
+      - Gondozók megjelenítése adatbázisból
+
+- 3, Weboldal funkciói
+       - Űrlap: talált állat bejelentése
+       - Kép feltöltés lehetősége talált állat esetén
+       - Szűrési funkció megvalósítása
+   
+- 4, Admin és felhasználói felület kialakítása
+      - Bejelentkezés adminisztrátorként
+      - Admin felület: CRUD műveletek az örökbefogadható állatok és a gondozók táblához.
+      - Felhasználói felület: örökbefogadható állatok kilistázása, adataik megtekintése, 
+        szűrés közöttük különböző kritériumok alapján, illetve egy űrlap segítségével jelezni tudják
+        a felhasználók az adminok felé, ha örökbe szeretnék fogadni az egyik állatot.
+
+Feladatok:
+----------
+1-2-3-4,	Bíró Daniella
+1-2-3-4,	Molnár Adrienn
+1-2-3-4,	Nyuzó Bíborka
+1-2-3-4, 	Zörgő Ádám Gábor
+
+Korábbi fennmaradt feladatok:
+-----------------------------
+- Nincs elmulasztott feladat.
+
+A nem teljesített feladatokat a fejlesztõk utólag fogják befejezni.
+A csoportgyűlés tagjai elfogadták a feladatokat.
