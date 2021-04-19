@@ -86,6 +86,10 @@ email,
 jelszo,
 eletkor
 
+Örökbefogadott állatok képei tábla
+id, 
+kep
+
 Implementációs terv:
 
 A Weboldalunk főként PHP, CSS, és HTML nyelven fog készülni.
