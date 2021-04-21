@@ -30,7 +30,7 @@ body #bejelentkezes td{
 	
 <div class="navbar">
   <a href="rolunk.php">Rólunk</a>
-  <a href="allatok.php">Örökbefogadható állataink</a>
+  <a href="orokbefogadhatoAllatokList.php">Örökbefogadható állataink</a>
   <a href="talaltallat.php">Talált állat bejelentése</a>
   <a href="gondozok.php">Gondozóink</a>  
   <a href="tamogatas.php">Támogatás</a>
