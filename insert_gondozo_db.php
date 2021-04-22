@@ -4,7 +4,7 @@ require_once 'connect.php';
 
 
 
-$nevErr =$munkakorErr="";
+$nevErr= $vegzettsegErr =$munkakorErr="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     
 }
- if ( $besznevErr == "" && $beszemailErr == "") {
+ if ( $besznevErr == "" && $beszemailErr == "" && $vegzettsegErr =="") {
      
      $sql = "insert into gondozok (nev,munkakor,vegzettseg) values ('$nev','$munkakor','$vegzettseg')";
 $conn->query($sql);
