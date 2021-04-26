@@ -5,6 +5,99 @@ include 'index.php';
 <!DOCTYPE html>
 <html>
  <head>
+     <style>
+       *{
+	font-family: caption,arial;
+	font-size: 20px;
+	
+}
+
+
+form#mezo{
+        width: 25%;
+        padding: 20px 50px 20px 20px;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+	
+}
+form#mezo fieldset {
+    margin-bottom: 30px;
+	border: 2px solid #990000;
+	background-color:#ffdd99;
+	border-radius:10px;
+    text-align: center;
+    color:#e65c00;
+    
+}
+form#mezo fieldset legend{
+	padding: auto;
+	width: 350px;
+	background:#b32d00;
+	color:#ffcc99;
+	border: 3px solid #990000;
+	font-size: 35px;
+	border-radius:10px;
+}
+
+form#mezo fieldset ol{
+	list-style:none;
+padding: 12px;
+}
+form#mezo fieldset ol li{
+	padding: 12px 0;
+	clear: both;
+}
+form#mezo fieldset label{
+	
+	float: left;
+    font-weight: bold;
+	
+}
+
+ form#mezo input[type="text"],select{
+           
+  width: 270px;
+	border: 2px solid #990000;
+	padding: 2px;
+	font-family: courier;
+	color:black;
+	margin: 5px auto;
+	
+	
+	
+}
+
+form#mezo input[type="reset"],
+form#mezo input[type="submit"]{
+	background:#b32d00;
+	color:#ffcc99;
+	border: 2px solid #ffcc99;
+	padding: 10px 20px;
+	font-size: 30px;
+	text-align:center;
+	cursor:pointer;
+	border-radius:10px;
+	margin:0 10px 0 10px;
+	
+}
+form#mezo input[type="reset"]:hover,
+form#mezo input[type="submit"]:hover{
+	background:#ff9966;
+	color:#660000;
+	border: 2px solid #660000;
+	padding: 10px 20px;
+	font-size: 32px;
+	text-align:center;
+	cursor:pointer;
+	border-radius:10px;
+	margin:0 10px 0 10px;
+	
+}
+
+
+      </style>
 
   </head>
   <body>
