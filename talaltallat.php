@@ -1,35 +1,31 @@
 <?php 
 include 'index.php';
+$errors = [];
 ?>
 
 <!DOCTYPE html>
 <html>
- <head>
-     <style>
-       *{
+<head>
+<style>*{
 	font-family: caption,arial;
-	font-size: 20px;
-	
+	font-size: 20px;	
 }
-
-
 form#mezo{
-        width: 25%;
-        padding: 20px 50px 20px 20px;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
-
-	
+    width: 32%;
+    padding: 20px 50px 20px 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 form#mezo fieldset {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
 	border: 2px solid #990000;
 	background-color:#ffdd99;
 	border-radius:10px;
     text-align: center;
-    color:#e65c00;
-    
+    color:#e65c00; 
 }
 form#mezo fieldset legend{
 	padding: auto;
@@ -40,35 +36,26 @@ form#mezo fieldset legend{
 	font-size: 35px;
 	border-radius:10px;
 }
-
 form#mezo fieldset ol{
 	list-style:none;
-padding: 12px;
+	padding: 12px;
 }
 form#mezo fieldset ol li{
 	padding: 12px 0;
 	clear: both;
 }
 form#mezo fieldset label{
-	
 	float: left;
     font-weight: bold;
-	
 }
-
- form#mezo input[type="text"],select{
-           
-  width: 270px;
+form#mezo input[type="text"],select{
+    width: 270px;
 	border: 2px solid #990000;
 	padding: 2px;
 	font-family: courier;
 	color:black;
 	margin: 5px auto;
-	
-	
-	
 }
-
 form#mezo input[type="reset"],
 form#mezo input[type="submit"]{
 	background:#b32d00;
@@ -79,8 +66,7 @@ form#mezo input[type="submit"]{
 	text-align:center;
 	cursor:pointer;
 	border-radius:10px;
-	margin:0 10px 0 10px;
-	
+	margin:0px 10px 0px 10px;
 }
 form#mezo input[type="reset"]:hover,
 form#mezo input[type="submit"]:hover{
@@ -93,53 +79,64 @@ form#mezo input[type="submit"]:hover{
 	cursor:pointer;
 	border-radius:10px;
 	margin:0 10px 0 10px;
-	
 }
-
-
-      </style>
-
-  </head>
+#kepfeltöltcim{
+    margin-top: 20px;
+}
+#kepfeltöltmeret{
+	font-size:17px;
+}
+</style>
+</head>
   <body>
   
     <div id=urlap >
 	    <form  align="center" id="mezo" action="bekuld.php" method="post" onSubmit="">
-		  <fieldset aliagn="center ">
-		    <legend aliagn="center">Talált állat bejelentése</legend>
-		      <ol>  <img src="kobor.jpg"  width="60%" align="center" >
-		      <li>
-			    <label for="allapot">Kutya állapota:<em>*</em></label>
-				<br>
-			    <select id="allapot" name="allapot">
-                    <option id="ez" name="ez" value="valaszt">Kérem válasszon...</option>
-  <option value="Sérült">Sérült</option>
-  <option value="Egészséges">Egészséges</option>
-  <option value="Sovány">Sovány</option>
-  </select>
-			  </li>
-                  <li>
-			    <label for="tel">Bejelentő Tel.száma:<em>*</em></label>
-				<br>
-			    <input name="tel" id="tel" type="text"  placeholder="06304676566"/>
-			  </li>
-              
-              <li>
-			    <label for="name">Megtalálás helye:<em>*</em></label>
-				<br>
-			    <input name="adress" id="adress" type="text"  placeholder="Eger"/>
-			  </li>
-	      
-		</ol>
-      
+		  	<fieldset aliagn="center">
+		    	<legend aliagn="center">Talált állat bejelentése</legend>
+		      		<ol>  <img src="kobor.jpg"  width="60%" align="center" >
+		      			<li>
+			    			<label for="allapot">Kutya állapota:<em>*</em></label>
+							<br>
+			    			<select id="allapot" name="allapot">
+                    			<option id="ez" name="ez" value="valaszt">Kérem válasszon...</option>
+  								<option value="Sérült">Sérült</option>
+  								<option value="Egészséges">Egészséges</option>
+  								<option value="Sovány">Sovány</option>
+  							</select>
+			  			</li>
 
-	    
-	   </fieldset>
-	   <input type='reset' value ='Mégse' >
-	   <input type="submit" value="Beküld" >
-		
+                		<li>
+			    			<label for="tel">Bejelentő Tel.száma:<em>*</em></label>
+							<br>
+			    			<input name="tel" id="tel" type="text"  placeholder="06304676566"/>
+			  			</li>
+              
+              			<li>
+			    			<label for="name">Megtalálás helye:<em>*</em></label>
+							<br>
+			    			<input name="adress" id="adress" type="text"  placeholder="Eger"/>
+			  			</li>
+					</ol>
+
+			<table>
+        		<form id="kepfeltöltes" action="<?php echo DOMAIN . "kepfeltöltes.php"; ?>" method="POST" enctype="multipart/form-data">
+        			<h1 id=kepfeltöltcim>Képfeltöltés</h1>
+        			<h5 id=kepfeltöltmeret>A kép mérete legfeljebb 5MB lehet és a maximum felbontás 1920x1080.</h5>
+            		<tr>
+                    <div>
+                        <input style="padding:5px;" type="file" name="kép">
+                	</div>
+            		</tr>
+					</form>
+    		</table>
+
+	   		</fieldset>
+	   		<input type='reset' value ='Mégse' >
+	   		<input type="submit" value="Beküld" >
 		  
-	  </form>
+	  	</form>
     </div>
 	
-  </body>
+</body>
 </html> 

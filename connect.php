@@ -1,5 +1,6 @@
 
 <?php 
+define('DOMAIN', 'http://localhost/RFT/');
 define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', 'root');
@@ -7,10 +8,17 @@ define('DB_PASS', '');
 define('DB_NAME', 'menhelydb');
 define('DB_CHARSET', 'utf8');
 
+define('MAX_UPLOAD_SIZE', 15);
+
 function getConnection() {
 	$connection = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';',DB_USER, DB_PASS);
 	$connection->exec("SET NAMES '".DB_CHARSET."'");
 	return $connection;
+}
+
+function dbClose($connection)
+{
+    $connection->close();
 }
 
 function getRecord($queryString, $queryParams = []) {
