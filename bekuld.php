@@ -1,4 +1,11 @@
+<?php 
+require_once 'connect.php';
+include 'index.php';
+?>
 
+<!DOCTYPE html>
+<html>
+<head>
 <style>
     
     #oldal{
@@ -17,6 +24,8 @@
 	cursor:pointer;
 	border-radius:10px;
 	margin:0 10px 0 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 	
 }
 #vissza:hover{
@@ -32,14 +41,13 @@
 	
 }
 </style>
-<html>
+</head>
     <body id="oldal">
-      
+    <input align="center" id="vissza" type="button" value="Vissza" onclick="location='talaltallat.php';">
+          
+    </body>
+</html>
 <?php
-require_once 'connect.php';
-
-include 'index.php';
-
 
 $allapotErr =$telErr=$adressErr="";
 
@@ -50,9 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if ( $allapot == "valaszt" ) {
      
     $allapotErr = "Kérem válassza ki a kutya állapotát!";
-     
-      
-      
+
   } 
     
     if (empty($_POST["tel"])) {
@@ -69,12 +75,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     { $telErr = "A telefonszámnak 11 hosszúnak kell lennie!";}
   }
 
-  
-    
-    
-    
-    
-    
     
     if (empty($_POST["adress"])) {
      
@@ -88,10 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $adressErr = "Az állapot mezőben nem megfelelő karakter!";
        
     }
-
-      
   }
-    
 }
 
 
@@ -105,13 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
      }else echo "<br>Sikertelen bejelentés! Kérem próbálja meg újra! <br><br> Hiba oka: $allapotErr $telErr $adressErr <br><br> <img src='sad.png' ><br><br>"; 
 
-
-
-
  $db->close();
 ?>
 
-    <input align="center" id="vissza" type="button" value="Vissza" onclick="location='talaltallat.php';">
-          
-        </body>
-</html>
+  
