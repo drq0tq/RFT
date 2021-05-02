@@ -1,4 +1,12 @@
-
+<html><style>
+    body  {
+        color:chocolate;
+        font-size:40px;
+        text-align: center;
+          
+    }   
+    </style>
+</html>
 <?php
 
 require_once 'connect.php';
@@ -40,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
     $adress = $_POST["adress"];
    if (!preg_match("/^[a-zA-ZáéíóöőüúűÁÉÍÖŐÜŰÚ]*$/",$adress)) {
-      $adressErr = "Az állapot mezőben nem megfelelő karakter!";
+      $adressErr = "Az hely mezőben nem megfelelő karakter!";
        
     }
   }
