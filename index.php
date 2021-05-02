@@ -12,7 +12,6 @@ body {
    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background: #ffffcc;
-    font-size: 20px;
 }
 body #bejelentkezes{
   margin-top: 10px;
