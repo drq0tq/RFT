@@ -1,6 +1,6 @@
 <?php
 include 'index.php';
-include 'tablastyle';
+include 'tablastyle.php';
 $query = "SELECT * FROM gondozok";
 require_once 'connect.php';
 $gondozok = getList($query);
