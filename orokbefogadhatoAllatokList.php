@@ -1,6 +1,6 @@
 <?php
 include 'index.php';
-include 'tablestyle';
+include 'tablastyle.php';
 $query = "SELECT * FROM orokbefogadhato_allatok";
 require_once 'connect.php';
 $allatok = getList($query);
