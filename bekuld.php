@@ -1,7 +1,4 @@
-<?php 
-require_once 'connect.php';
-include 'index.php';
-?>
+
 
 <!DOCTYPE html>
 <html>
@@ -47,7 +44,11 @@ include 'index.php';
           
     </body>
 </html>
+
 <?php
+
+require_once 'connect.php';
+include 'index.php';
 
 $allapotErr =$telErr=$adressErr="";
 
@@ -93,12 +94,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     if ( $allapotErr == "" && $telErr == ""  && $adressErr==""){
-    $sql = "INSERT INTO talalt_allatok (allapot,telefonszam,hely) VALUES ('$allapot','$tel','$adress')"; 
-        if ($db->query($sql) === True) 
-        {
-  echo "<br>A bejelentés megtörtént. Köszönjük a segítséget! <br><br><img width='20%' src='happy.png'><br><br>";
+   
+        $query =  "INSERT INTO talalt_allatok (allapot,telefonszam,hely) VALUES ('$allapot',' $tel' , '$adress')";
+      executeDML($query );
+
+echo "<br>A bejelentés megtörtént. Köszönjük a segítséget! <br><br><img width='20%' src='happy.png'><br><br>";
         
-         } else echo "<br>Hiba!";
+  
 
      }else echo "<br>Sikertelen bejelentés! Kérem próbálja meg újra! <br><br> Hiba oka: $allapotErr $telErr $adressErr <br><br> <img src='sad.png' ><br><br>"; 
 
