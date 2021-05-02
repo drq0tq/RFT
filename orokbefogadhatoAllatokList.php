@@ -1,5 +1,6 @@
 <?php
 include 'index.php';
+include 'tablestyle';
 $query = "SELECT * FROM orokbefogadhato_allatok";
 require_once 'connect.php';
 $allatok = getList($query);
@@ -7,7 +8,7 @@ $allatok = getList($query);
 <?php if(count($allatok)<=0) : ?>
     <h1>Nem található gondozó a táblában</h1>
 <?php else : ?>
-<table>
+<table id="table">
 		<thead>
 			<tr>
 				<th scope="col">#</th>
