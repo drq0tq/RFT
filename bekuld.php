@@ -1,50 +1,4 @@
 
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    
-    #oldal{
-        color:chocolate;
-        font-size:40px;
-        text-align: center;
-          
-    }
-#vissza{
-	background:#b32d00;
-	color:#ffcc99;
-	border: 2px solid #ffcc99;
-	padding: 10px 20px;
-	font-size: 30px;
-	text-align:center;
-	cursor:pointer;
-	border-radius:10px;
-	margin:0 10px 0 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-	
-}
-#vissza:hover{
-	background:#ff9966;
-	color:#660000;
-	border: 2px solid #660000;
-	padding: 10px 20px;
-	font-size: 32px;
-	text-align:center;
-	cursor:pointer;
-	border-radius:10px;
-	margin:0 10px 0 10px;
-	
-}
-</style>
-</head>
-    <body id="oldal">
-    <input align="center" id="vissza" type="button" value="Vissza" onclick="location='talaltallat.php';">
-          
-    </body>
-</html>
-
 <?php
 
 require_once 'connect.php';
@@ -104,7 +58,7 @@ echo "<br>A bejelentés megtörtént. Köszönjük a segítséget! <br><br><img 
 
      }else echo "<br>Sikertelen bejelentés! Kérem próbálja meg újra! <br><br> Hiba oka: $allapotErr $telErr $adressErr <br><br> <img src='sad.png' ><br><br>"; 
 
- $db->close();
+
 ?>
 
   
