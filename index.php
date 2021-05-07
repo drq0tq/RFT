@@ -23,7 +23,7 @@ body #bejelentkezes td{
 </head>
 <body >
     <table id="bejelentkezes" align="right" >
-	  <tr><td><input id="bejel" type="button" value="Bejelentkezés" onclick="location='bejelentkezes.php';"></td><td><input id="reg" type="button" value="Regisztráció"  onclick="location='regisztracio.php';"></td></tr>
+	  <tr><td><input id="bejel" type="button" value="Bejelentkezés" onclick="location='login.php';"></td><td><input id="reg" type="button" value="Regisztráció"  onclick="location='register.php';"></td></tr>
 	  </table>
 <div id=Fejlec > </div>
 	

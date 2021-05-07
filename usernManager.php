@@ -1,0 +1,32 @@
+<?php
+
+function isUserLoggedin(){
+    return $_SESSION != null && array_key_exists('uid', $_SESSION) && is_numeric($_SESSION['uid']);
+}
+
+function userLogOut(){
+    session_unset();
+    session_destroy();
+    header('Location: index.php');
+}
+
+function userLogin($email, $password){
+    $query = "SELECT id, nev, email from felhasznalok where email = :email AND jelszo = :password";
+    $params = [
+        ':email' => $email,
+        ':password' => $password
+    ];
+
+    require_once 'connect.php';
+    $record = getRecord($query,$params);
+    if(!empty($record)){
+        $_SESSION['uid'] = $record['id'];
+        $_SESSION['nev'] = $record['nev'];
+        $_SESSION['email'] = $record['email'];
+        header('Location: index.php');
+    }
+    return false;
+}
+
+
+?>
