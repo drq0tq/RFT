@@ -128,7 +128,7 @@ form#mezo input[type="submit"]:hover{
                         <input style="padding:5px;" type="file" name="kép">
                 	</div>
             		</tr>
-					</form>
+				</form>
     		</table>
 
 	   		</fieldset>

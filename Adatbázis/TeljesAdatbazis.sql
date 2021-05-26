@@ -109,12 +109,16 @@ INSERT INTO `orokbefogadhato_allatok` (`id`, `kep`, `kor`, `nem`, `fajta`, `mere
 
 CREATE TABLE `talalt_allatok` (
   `id` int(11) NOT NULL,
-  `kep` varchar(255) NOT NULL,
+  `kep` varchar(255),
   `hely` varchar(255) NOT NULL,
   `allapot` varchar(255) NOT NULL,
   `telefonszam` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- 
+--
+ALTER TABLE `talalt_allatok` MODIFY  `kep` varchar(255);
 --
 -- A tábla adatainak kiíratása `talalt_allatok`
 --

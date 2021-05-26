@@ -8,17 +8,19 @@ define('DB_PASS', '');
 define('DB_NAME', 'menhelydb');
 define('DB_CHARSET', 'utf8');
 
+define('BASE_PATH', __DIR__);
+
 define('MAX_UPLOAD_SIZE', 15);
 
 function getConnection() {
-	$connection = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';',DB_USER, DB_PASS);
+	$connection = new PDO(DB_TYPE.':host='.DB_HOST.'; port=3306; dbname='.DB_NAME.';',DB_USER, DB_PASS);
 	$connection->exec("SET NAMES '".DB_CHARSET."'");
 	return $connection;
 }
 
 function dbClose($connection)
 {
-    $connection->close();
+    $connection = null;
 }
 
 function getRecord($queryString, $queryParams = []) {
@@ -59,15 +61,51 @@ function getField($queryString, $queryParams = []) {
 	$connection = null;
 	return $result;
 }
+function generateRandomString($length = 10)
+{
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
+
+function is_post()
+{
+    return $_SERVER['REQUEST_METHOD'] === 'POST';
+}
+function print_form_errors($input, $errors)
+{
+    if (array_key_exists($input, $errors)) {
+        foreach ($errors[$input] as $error) {
+            echo "<p class='input-error'>$error</p>";
+        }
+    }
+}
+
+function redirect($page, $message = '')
+{
+	$url = DOMAIN . $page . ($message == '' ? '' : '?msg=' . $message);
+	header("Location: $url");
+	die();
+}
+function route($params = [])
+{
+	$i = 0;
+	$url = "?";
+	foreach ($params as $key => $value) {
+		if ($i == 0) {
+			$url .= "$key=$value";
+			$i++;
+		} else {
+			$url .= "&$key=$value";
+		}
+	}
+	return $url;
+}
 
 
-
-
-//error_reporting(0);
-/*$db = new mysqli('127.0.0.1','root','','menhelydb');
-if($db->connect_errno){
-echo $db->connect_error;
-die();
-}*/
 
 ?>
