@@ -61,7 +61,7 @@ $errors = [];
 </head>
 <body>
 
-<div>
+<div class=formtable>
 <form id=szandek align="center" action="<?php echo route(['page' => 'orokbefogadasiSzandek_urlap']); ?>" method="POST" enctype="multipart/form-data">
 <h1 id=szandek_cim>Űrlap az örökbefogadási szándék jelzéséhez</h1>
 <table>
@@ -96,7 +96,7 @@ $errors = [];
         <?php print_form_errors('kutyaazonositoja1', $errors); ?></td>
     </tr>
     <tr>
-        <td colspan=2><button class="btn" type="submit">Beküld</button></td>
+        <td colspan=2><button id="btn" type="submit">Beküld</button></td>
     </tr>
 </table>
 </form>
