@@ -10,7 +10,7 @@ define('DB_CHARSET', 'utf8');
 
 define('BASE_PATH', __DIR__);
 
-define('MAX_UPLOAD_SIZE', 15);
+define('MAX_UPLOAD_SIZE', 5);
 
 function getConnection() {
 	$connection = new PDO(DB_TYPE.':host='.DB_HOST.'; port=3306; dbname='.DB_NAME.';',DB_USER, DB_PASS);
@@ -105,7 +105,5 @@ function route($params = [])
 	}
 	return $url;
 }
-
-
 
 ?>

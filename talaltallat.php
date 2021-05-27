@@ -80,18 +80,18 @@ form#mezo input[type="submit"]:hover{
 	border-radius:10px;
 	margin:0 10px 0 10px;
 }
+#kepfeltöltmeret {
+    font-size: 17px;
+}
 #kepfeltöltcim{
     margin-top: 20px;
-}
-#kepfeltöltmeret{
-	font-size:17px;
 }
 </style>
 </head>
   <body>
   
     <div id=urlap >
-	    <form  align="center" id="mezo" action="bekuld.php" method="post" onSubmit="">
+	    <form  align="center" id="mezo" action="<?php echo DOMAIN . 'bekuld.php' ?>" method="POST" enctype="multipart/form-data">
 		  	<fieldset aliagn="center">
 		    	<legend aliagn="center">Talált állat bejelentése</legend>
 		      		<ol>  <img src="kobor.jpg"  width="60%" align="center" >
@@ -120,19 +120,19 @@ form#mezo input[type="submit"]:hover{
 					</ol>
 
 			<table>
-        		<form id="kepfeltöltes" action="<?php echo DOMAIN . "kepfeltöltes.php"; ?>" method="POST" enctype="multipart/form-data">
+        		<div id="kepfeltöltes">
         			<h1 id=kepfeltöltcim>Képfeltöltés</h1>
-        			<h5 id=kepfeltöltmeret>A kép mérete legfeljebb 5MB lehet és a maximum felbontás 1920x1080.</h5>
+					<h5 id=kepfeltöltmeret>A kép mérete legfeljebb 5MB lehet.</h5>
             		<tr>
                     <div>
                         <input style="padding:5px;" type="file" name="kép">
                 	</div>
             		</tr>
-				</form>
+				</div>
     		</table>
-
+			
 	   		</fieldset>
-	   		<input type='reset' value ='Mégse' >
+	   		<input type="reset" value ="Mégse" >
 	   		<input type="submit" value="Beküld" >
 		  
 	  	</form>

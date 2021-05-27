@@ -4,7 +4,7 @@ include 'index.php';
 <html lang="hu">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="css/app.css" ?>
+<link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <form align="center">
