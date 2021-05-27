@@ -34,6 +34,7 @@ include 'index.php';
             cursor: pointer;
             border-radius: 10px;
             margin: 0px 10px 0px 10px;
+            margin-top:20px;
         }
 
         input[type="reset"]:hover,
@@ -47,6 +48,7 @@ include 'index.php';
             cursor: pointer;
             border-radius: 10px;
             margin: 0 10px 0 10px;
+            margin-top:20px;
         }
 
         #kepfeltöltcim {
@@ -73,7 +75,7 @@ include 'index.php';
             <table id=kepfeltöltes>
                 <form action="orokbefogadott_kepfeltöltes.php" method="POST" enctype="multipart/form-data">
                     <h1 id=kepfeltöltcim>Képfeltöltés</h1>
-                    <h5 id=kepfeltöltmeret>A kép mérete legfeljebb 5MB lehet és a maximum felbontás 1920x1080.</h5>
+                    <h5 id=kepfeltöltmeret>A kép mérete legfeljebb 5MB lehet.</h5>
                     <tr>
                         <div>
                             <input style="padding:5px;" type="file" name="kép">
