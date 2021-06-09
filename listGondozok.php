@@ -35,7 +35,37 @@ $gondozok = getList($query);
 <?php if(!isset($_SESSION['permission']) || $_SESSION['permission'] < 1) : ?>
 	<h1>Hozzáférés megtagadva</h1>
 <?php else : ?>
-	<h1>OK</h1>
+<div style="text-align: center; margin: 15px;">
+	<a href="#" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;">Hozzáadás</a>
+	<a href="#" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;">Törlés</a>
+	<a href="#" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;" >Frissítés</a>
+</div>
 <?php endif; ?>
-
 
