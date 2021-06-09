@@ -1,7 +1,9 @@
 <?php
 require_once 'connect.php';
+require_once 'usernManager.php';
 
 ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -27,7 +29,11 @@ body #bejelentkezes td{
 	  </table>
 <div id=Fejlec > </div>
 	
+
 <div class="navbar">
+<?php if(!IsUserLoggedIn()) : ?>
+  <a href="rolunk.php">Rólunk</a>
+<?php else : ?>
   <a href="rolunk.php">Rólunk</a>
   <a href="orokbefogadhatoAllatokList.php">Örökbefogadható állataink</a>
   <a href="talaltallat.php">Talált állat bejelentése</a>
@@ -35,6 +41,8 @@ body #bejelentkezes td{
   <a href="tamogatas.php">Támogatás</a>
   <a href="orokbefogadott.php">Örökbefogadott kutyák</a>
   <a href="kapcsolat.php">Kapcsolat</a>
+  <a href="logout.php">Kijelentkezés</a>
+<?php endif; ?>
 </div>
 
 </body>

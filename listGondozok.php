@@ -31,3 +31,11 @@ $gondozok = getList($query);
 		</tbody>
 	</table>
 <?php endif; ?>
+
+<?php if(!isset($_SESSION['permission']) || $_SESSION['permission'] < 1) : ?>
+	<h1>Hozzáférés megtagadva</h1>
+<?php else : ?>
+	<h1>OK</h1>
+<?php endif; ?>
+
+

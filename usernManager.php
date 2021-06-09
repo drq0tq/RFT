@@ -11,7 +11,7 @@ function userLogOut(){
 }
 
 function userLogin($email, $password){
-    $query = "SELECT id, nev, email from felhasznalok where email = :email AND jelszo = :password";
+    $query = "SELECT id, nev, email, permission from felhasznalok where email = :email AND jelszo = :password";
     $params = [
         ':email' => $email,
         ':password' => $password
@@ -23,6 +23,7 @@ function userLogin($email, $password){
         $_SESSION['uid'] = $record['id'];
         $_SESSION['nev'] = $record['nev'];
         $_SESSION['email'] = $record['email'];
+        $_SESSION['permission'] = $record['permission'];
         header('Location: index.php');
     }
     return false;
