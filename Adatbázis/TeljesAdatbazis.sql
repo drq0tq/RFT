@@ -195,7 +195,8 @@ CREATE TABLE `felhasznalok` (
   `nev` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `jelszo` varchar(255) NOT NULL,
-  `eletkor` int(11) NOT NULL
+  `eletkor` int(11) NOT NULL,
+    `permission` int(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -203,9 +204,10 @@ CREATE TABLE `felhasznalok` (
 --
 
 INSERT INTO `felhasznalok` (`id`, `nev`, `email`, `jelszo`, `eletkor`) VALUES
-(1, 'Guba Ilona', 'guba.ilona@gmail.com', 'Ab213', 39),
-(2, 'Tóth Áron', 'totharon23@gmail.com', '124290', 45),
-(3, 'Osváth Ádám', 'o.adam1998@gmail.com', '19980215', 23);
+(1, 'Guba Ilona', 'guba.ilona@gmail.com', 'Ab213', 39, 0),
+(2, 'Tóth Áron', 'totharon23@gmail.com', '124290', 45, 0),
+(3, 'Osváth Ádám', 'o.adam1998@gmail.com', '19980215', 23, 0),
+(6, 'admin', 'admin@admin.com', 'adminPassword', 22, 0);
 
 --
 -- A tábla indexei `felhasznalok`
