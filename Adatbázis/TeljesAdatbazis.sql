@@ -203,7 +203,7 @@ CREATE TABLE `felhasznalok` (
 -- A tábla adatainak kiíratása `felhasznalok`
 --
 
-INSERT INTO `felhasznalok` (`id`, `nev`, `email`, `jelszo`, `eletkor`) VALUES
+INSERT INTO `felhasznalok` (`id`, `nev`, `email`, `jelszo`, `eletkor`, `permission`) VALUES
 (1, 'Guba Ilona', 'guba.ilona@gmail.com', 'Ab213', 39, 0),
 (2, 'Tóth Áron', 'totharon23@gmail.com', '124290', 45, 0),
 (3, 'Osváth Ádám', 'o.adam1998@gmail.com', '19980215', 23, 0),
