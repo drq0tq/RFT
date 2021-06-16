@@ -69,4 +69,7 @@ $gondozok = getList($query);
 </div>
 <?php endif; ?>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a53403963afa141a40991a7690499792467853c1
