@@ -67,7 +67,7 @@ $allatok = getList($query);
 	<h1>Hozzáférés megtagadva</h1>
 <?php else : ?>
 <div style="text-align: center;">
-	<a href="#" style="
+	<a href="hozzaad_urlap.php" style="
     width: 115px;
     height: 25px;
     background: #993300;
