@@ -1,7 +1,9 @@
 <?php
 require_once 'connect.php';
+require_once 'usernManager.php';
 
 ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -27,7 +29,9 @@ body #bejelentkezes td{
 	  </table>
 <div id=Fejlec > </div>
 	
+
 <div class="navbar">
+
   <a href="rolunk.php">Rólunk</a>
   <a href="orokbefogadhatoAllatokList.php">Örökbefogadható állataink</a>
   <a href="talaltallat.php">Talált állat bejelentése</a>
@@ -35,6 +39,12 @@ body #bejelentkezes td{
   <a href="tamogatas.php">Támogatás</a>
   <a href="orokbefogadott.php">Örökbefogadott kutyák</a>
   <a href="kapcsolat.php">Kapcsolat</a>
+  <?php if(!isset($_SESSION['permission']) || $_SESSION['permission'] < 1) : ?>
+<?php else : ?>
+  <a href="talaltAllatok.php">Talált állatok</a>
+<?php endif; ?>
+  <a href="logout.php">Kijelentkezés</a>
+
 </div>
 
 </body>

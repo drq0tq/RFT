@@ -3,6 +3,7 @@ include 'index.php';
 include 'tablastyle.php';
 $query = "SELECT * FROM orokbefogadhato_allatok";
 require_once 'connect.php';
+require_once 'usernManager.php';
 $allatok = getList($query);
 ?>
 <?php if(count($allatok)<=0) : ?>
@@ -40,4 +41,58 @@ $allatok = getList($query);
 			<?php endforeach;?>
 		</tbody>
 	</table>
+<?php endif; ?>
+
+<?php if(isUserLoggedin()) : ?>
+    <div style="margin: 15px; text-align: center;">
+<a href="orokbefogadasiSzandek_urlap.php" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;">Szeretnék örökbefogadni</a>
+</div>
+<?php else : ?>
+
+<?php endif; ?>
+
+<?php if(!isset($_SESSION['permission']) || $_SESSION['permission'] < 1) : ?>
+	<h1>Hozzáférés megtagadva</h1>
+<?php else : ?>
+<div style="text-align: center;">
+	<a href="#" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;">Hozzáadás</a>
+	<a href="#" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;">Törlés</a>
+	<a href="#" style="
+    width: 115px;
+    height: 25px;
+    background: #993300;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;" >Frissítés</a>
+</div>
 <?php endif; ?>
