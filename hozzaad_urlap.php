@@ -88,10 +88,10 @@ form#mezo input[type="submit"]:hover{
   <body>
   
     <div id=urlap >
-	    <form  align="center" id="mezo" action="<?php echo DOMAIN . 'bekuld.php' ?>" method="POST" enctype="multipart/form-data">
-		  	<fieldset aliagn="center">
-		    	<legend aliagn="center">Örökbefogadható állat hozzáadása</legend>
-		      		<ol>  <img src="kobor.jpg"  width="60%" align="center" >
+	    <form  align="center" id="mezo" action="<?php echo DOMAIN . 'insert_orokbefogadhato_db.php' ?>" method="POST" enctype="multipart/form-data">
+		  	<fieldset align="center">
+		    	<legend align="center">Örökbefogadható állat hozzáadása</legend>
+		      		<ol>  <img src="kobor.jpg"  width="100%" align="center" >
                 		<li>
 			    			<label for="kor">Állat kora:<em>*</em></label>
 							<br>
@@ -126,21 +126,11 @@ form#mezo input[type="submit"]:hover{
                         <li>
 			    			<label for="gyerekb">Gyerekbarát:<em>*</em></label>
 							<br>
-			    			<input name="gyerekb" id="gyerek" type="text"  placeholder=""/>
+			    			<input name="gyerekb" id="gyerekb" type="text"  placeholder=""/>
 			  			</li>
 					</ol>
 
-			<table>
-        		<div id="kepfeltöltes">
-        			<h1 id=kepfeltöltcim>Képfeltöltés</h1>
-					<h5 id=kepfeltöltmeret>A kép mérete legfeljebb 5MB lehet.</h5>
-            		<tr>
-                    <div>
-                        <input style="padding:5px;" type="file" name="kép">
-                	</div>
-            		</tr>
-				</div>
-    		</table>
+			
 			
 	   		</fieldset>
 	   		<input type="reset" value ="Mégse" >
