@@ -42,15 +42,11 @@ $allatok = getList($query);
 		</tbody>
 	</table>
 <?php endif; ?>
-<<<<<<< HEAD
+
 
 <?php if(isUserLoggedin()) : ?>
     <div style="margin: 15px; text-align: center;">
 <a href="orokbefogadasiSzandek_urlap.php" style="
-=======
-<div style="margin: 15px; text-align: center;">
-<a href="#" style="
->>>>>>> a53403963afa141a40991a7690499792467853c1
     width: 115px;
     height: 25px;
     background: #993300;
@@ -61,12 +57,11 @@ $allatok = getList($query);
     font-weight: bold;
     line-height: 25px;">Szeretnék örökbefogadni</a>
 </div>
-<<<<<<< HEAD
+
 <?php else : ?>
 
 <?php endif; ?>
-=======
->>>>>>> a53403963afa141a40991a7690499792467853c1
+
 
 <?php if(!isset($_SESSION['permission']) || $_SESSION['permission'] < 1) : ?>
 	<h1>Hozzáférés megtagadva</h1>

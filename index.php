@@ -31,13 +31,9 @@ body #bejelentkezes td{
 	
 
 <div class="navbar">
-<<<<<<< HEAD
 
-=======
-<?php if(!IsUserLoggedIn()) : ?>
-  <a href="rolunk.php">Rólunk</a>
-<?php else : ?>
->>>>>>> a53403963afa141a40991a7690499792467853c1
+
+
   <a href="rolunk.php">Rólunk</a>
   <a href="orokbefogadhatoAllatokList.php">Örökbefogadható állataink</a>
   <a href="talaltallat.php">Talált állat bejelentése</a>
@@ -45,17 +41,13 @@ body #bejelentkezes td{
   <a href="tamogatas.php">Támogatás</a>
   <a href="orokbefogadott.php">Örökbefogadott kutyák</a>
   <a href="kapcsolat.php">Kapcsolat</a>
-<<<<<<< HEAD
+
   <?php if(!isset($_SESSION['permission']) || $_SESSION['permission'] < 1) : ?>
 <?php else : ?>
   <a href="talaltAllatok.php">Talált állatok</a>
 <?php endif; ?>
   <a href="logout.php">Kijelentkezés</a>
 
-=======
-  <a href="logout.php">Kijelentkezés</a>
-<?php endif; ?>
->>>>>>> a53403963afa141a40991a7690499792467853c1
 </div>
 
 </body>
