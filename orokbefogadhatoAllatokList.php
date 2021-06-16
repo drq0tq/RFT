@@ -77,7 +77,7 @@ $allatok = getList($query);
     color: white;
     font-weight: bold;
     line-height: 25px;">Hozzáadás</a>
-	<a href="#" style="
+	<a href="torol_urlap.php" style="
     width: 115px;
     height: 25px;
     background: #993300;
@@ -87,7 +87,7 @@ $allatok = getList($query);
     color: white;
     font-weight: bold;
     line-height: 25px;">Törlés</a>
-	<a href="#" style="
+	<a href="modosit_urlap.phphr" style="
     width: 115px;
     height: 25px;
     background: #993300;
