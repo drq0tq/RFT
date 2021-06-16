@@ -4,22 +4,22 @@ require_once 'connect.php';
 
 
 
-$nevErr= $kepzettsegErr =$korErr =$nemErr =$fajtaErr =$meretErr =$mozgasigenyErr =$ivartalanErr =$gyerekbaratErr =$munkakorErr="";
+  $korErr =$nemErr =$fajtaErr =$meretErr =$mozgasigenyErr =$ivartalanErr =$gyerekbaratErr ="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     
-  if (empty($_POST["nev"])) {
+  if (empty($_POST["kor"])) {
      
-  echo  $nevErr = "Név mező üres!";
+  echo  $korErr = "Kor mező üres!";
      
       
       
   } else {
    
-   $nev = ($_POST["nev"]);
+   $nev = ($_POST["kor"]);
   
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$nev)) {
+    if (!preg_match("/^[0-9]*$/",$nev)) {
     echo  $nevErr = "A Név mezőben hibás karakterek vannak!";
           
     } 
