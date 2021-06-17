@@ -77,7 +77,7 @@ INSERT INTO `orokbefogadasi_szandek` (`id`, `nev`, `eletkor`, `email`, `telefons
 
 CREATE TABLE `orokbefogadhato_allatok` (
   `id` int(11) NOT NULL,
-  `kep` varchar(255) NOT NULL,
+  `kep` varchar(255),
   `kor` int(11) NOT NULL,
   `nem` tinyint(1) NOT NULL,
   `fajta` varchar(255) NOT NULL,
@@ -86,7 +86,10 @@ CREATE TABLE `orokbefogadhato_allatok` (
   `ivartalanitott` tinyint(1) DEFAULT NULL,
   `gyerekbarat` tinyint(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
+--
+-- 
+--
+ALTER TABLE `orokbefogadhato_allatok` MODIFY  `kep` varchar(255);
 --
 -- A tábla adatainak kiíratása `orokbefogadhato_allatok`
 --

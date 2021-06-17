@@ -1,9 +1,11 @@
 <?php
 //error_reporting(0);
-$db = new mysqli('127.0.0.1','root','','menhelydb');
-if($db->connect_errno){
-echo $db->connect_error;
-die();
+//$db = new mysqli('127.0.0.1','root','','menhelydb');
+require_once 'connect.php';
+$connection = getConnection();
+//if($db->connect_errno){
+//echo $db->connect_error;
+//die();
 
 
 
@@ -101,10 +103,9 @@ if (empty($_POST["mozgasigeny"])) {
 }
  if ( $korErr == "" && $nemErr == "" && $fajtaErr =="" && $meretErr =="" && $mozgasigenyErr =="" && $ivartalanErr =="" && $gyerekbaratErr =="") {
      
-     $sql = "insert into orokbefogadhato_allatok (kor,nem,fajta,meret,mozgasigeny,ivartalanitott,gyerekbarat) values ('$kor','$nem','$fajta','$meret','$mozgasigeny','$ivartalan','$gyerekb')";
-$conn->query($sql);
-include 'index.php';
-echo "Sikeres hozzáadás!"; 
- } else { include 'index.php'; echo  "Sikertelen hozzáadás!"; }
+     $query = "INSERT INTO orokbefogadhato_allatok (kor,nem,fajta,meret,mozgasigeny,ivartalanitott,gyerekbarat) VALUES ('$kor','$nem','$fajta','$meret','$mozgasigeny','$ivartalan','$gyerekb')";
+     executeDML($query);
+     redirect('message', '<br>Sikeres hozzáadás!');
+ } else redirect('message', '<br>Sikertelen hozzáadás! Kérem próbálja meg újra!');
 
-        ?>
+?>
